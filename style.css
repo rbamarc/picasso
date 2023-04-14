@@ -9,3 +9,23 @@ body{
     height: 100vh;
     background-color: #00989d;
 }
+
+.upper{
+    position: relative;
+    display: flex;
+    height: 50%;
+    background-color: #00989d;
+}
+
+.upper div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    border: white 0.3rem solid;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
